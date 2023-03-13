@@ -5,7 +5,7 @@
     url('/Users/tk/Desktop/go-theses-23-tinka-kovacic/Fonts/Basteleur-Bold.ttf') format('truetype'),
     url('/Users/tk/Desktop/go-theses-23-tinka-kovacic/Fonts/Basteleur-Bold.woff') format('woff'),
     url('/Users/tk/Desktop/go-theses-23-tinka-kovacic/Fonts/Basteleur-Moonlight.woff') format('woff');
-    
+
 }
 
 html {
@@ -78,13 +78,13 @@ h2,
 h3 {
   orphans: 3;
   widows: 3;
-  font-family: 'Open Sans', sans-serif;
 }
 
 h2,
 h3,
 h4 {
   page-break-after: avoid;
+  font-family: 'Open Sans', sans-serif;
 }
 
 p {
@@ -286,7 +286,6 @@ div {
 
   body {
     font-size: 3vw !important;
-    font-family: 'Open Sans', sans-serif;
   }
 
   .section-inner {
@@ -295,6 +294,6 @@ div {
   }
 
   .sticky-menu a {
-    font-size: 10px;
+    font-size: 20px;
   }
 }
