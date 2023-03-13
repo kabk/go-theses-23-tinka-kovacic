@@ -1,12 +1,10 @@
 @font-face {
   font-family: 'Basteleur';
   src: local('Basteleur'),
-    url('/Users/tk/Desktop/Thesis/Fonts/Basteleur-Bold.ttf') format('truetype'),
-    url('webfont/Users/tk/Desktop/Thesis/Fonts/Basteleur-Moonlight.ttf') format('truetype');
-  font-family: 'Karrik';
-  src: local('Karrik'),
-    url('webfont/Users/tk/Desktop/Thesis/Fonts/Karrik-Italic.ttf') format('truetype'),
-    url('/Users/tk/Desktop/Thesis/Fonts/Karrik-Regular.ttf') format('truetype');
+    url('/Users/tk/Desktop/go-theses-23-tinka-kovacic/Fonts/Basteleur-Moonlight.ttf') format('truetype'),
+    url('/Users/tk/Desktop/go-theses-23-tinka-kovacic/Fonts/Basteleur-Bold.ttf') format('truetype'),
+    url('/Users/tk/Desktop/go-theses-23-tinka-kovacic/Fonts/Basteleur-Bold.woff') format('woff'),
+    url('/Users/tk/Desktop/go-theses-23-tinka-kovacic/Fonts/Basteleur-Moonlight.woff') format('woff');
 }
 
 html {
