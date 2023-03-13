@@ -1,20 +1,10 @@
-/*@font-face {
+@font-face {
   font-family: 'Basteleur';
   src: local('Basteleur'),
     url('/Users/tk/Desktop/go-theses-23-tinka-kovacic/Fonts/Basteleur-Moonlight.ttf') format('truetype'),
     url('/Users/tk/Desktop/go-theses-23-tinka-kovacic/Fonts/Basteleur-Bold.ttf') format('truetype'),
     url('/Users/tk/Desktop/go-theses-23-tinka-kovacic/Fonts/Basteleur-Bold.woff') format('woff'),
     url('/Users/tk/Desktop/go-theses-23-tinka-kovacic/Fonts/Basteleur-Moonlight.woff') format('woff');
-}*/
-@font-face {
-  font-family: 'Basteleur';
-  src: local('Basteleur'),
-    url('../Fonts/Basteleur-Moonlight.ttf') format('truetype'),
-    url('../Fonts/Basteleur-Bold.ttf') format('truetype');
-  src: local('Basteleur'),
-    url('../Fonts/Basteleur-Bold.woff') format('woff'),
-    url('../Fonts/Basteleur-Moonlight.woff') format('woff');
-  font-display: swap;
 }
 
 html {
@@ -137,7 +127,7 @@ h2 {
   margin-top: -48px;
   /* this is the negative value of the top property */
   margin-bottom: 0px;
-  font-weight: normal;
+  font-weight: 500;
   z-index: 2;
 }
 
@@ -285,17 +275,16 @@ div {
 @media (max-width: 900px) {
 
   h1 {
-    font-size: 5vw;
+    font-size: 4.8vw !important;
   }
 
   h2 {
-    padding-top: 10px;
-    font-size: 3vw;
-    font-weight: 500;
+    font-size: 3vw !important;
+    font-weight: 500 !important;
   }
 
   body {
-    font-size: 3vw;
+    font-size: 3vw !important;
     font-family: 'Open Sans', sans-serif;
   }
 
@@ -305,6 +294,6 @@ div {
   }
 
   .sticky-menu a {
-    font-size: 3vw;
+    font-size: 10px;
   }
 }
