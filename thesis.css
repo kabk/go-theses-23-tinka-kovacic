@@ -299,9 +299,25 @@ div {
     padding-top: 5%;
   }
 
-  body {
-    font-size: 3.2vw !important;
-    padding-top: 7px;
+  .poem {
+    font-size: 0.7em;
+  }
+  
+  .story {
+    font-size: 0.7em;
+  }
+  
+  .regular_text {
+    font-size: 0.7em;
+  }
+  
+  .Bibliography {
+    justify-content: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 0.85em;
+    max-width: 50%;
+    position: relative;
+    margin: auto;
   }
 
   .section-inner {
@@ -317,6 +333,6 @@ div {
   }
 
   body::before {
-    height: 25vh;
+    height: 23vh;
   }
 }
