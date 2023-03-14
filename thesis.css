@@ -37,7 +37,7 @@ body {
   max-width: 100vw;
   padding-left: 25px;
   padding-right: 25px;
-  padding-top: 25px;
+  padding-top: 15px;
   padding-bottom: 25px;
   hyphens: auto;
   overflow-wrap: break-word;
@@ -296,10 +296,12 @@ div {
     font-size: 3vw !important;
     font-weight: 500 !important;
     font-weight: normal;
+    padding-top: 5%;
   }
 
   body {
     font-size: 3.2vw !important;
+    padding-top: 3px;
   }
 
   .section-inner {
@@ -310,10 +312,11 @@ div {
   .sticky-menu a {
     font-size: 3.5vw;
     font-weight: normal;
-    padding: 0px;
+    padding-top: -10vh;
+
   }
 
   body::before {
-    height: 21vh;
+    height: 25vh;
   }
 }
