@@ -25,11 +25,6 @@
 
   <script>
 
-window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
-}
-
-
     function toggleNote(event) {
       const footnoteElement = event.currentTarget;
       footnoteElement.classList.toggle("reveal")
@@ -44,28 +39,6 @@ window.onbeforeunload = function () {
       const button = document.querySelector(`[onclick="toggleBlur('${paragraphClass}')"]`);
       button.classList.toggle('outline');
     }
-
-
-    // this should make it scroll to the beginning of the inner section
-    var menuLinks = document.querySelectorAll('.sticky-menu a');
-
-    menuLinks.forEach(function (link) {
-      link.addEventListener('click', function (event) {
-        event.preventDefault();
-
-        var href = this.getAttribute('href');
-
-        var target = document.querySelector(href);
-        var topOffset = target.getBoundingClientRect().top + window.pageYOffset;
-        var stickyMenuHeight = document.querySelector('.sticky-menu').offsetHeight;
-        var topPosition = topOffset - stickyMenuHeight;
-
-        window.scrollTo({
-          top: topPosition,
-          behavior: 'smooth'
-        });
-      });
-    });
 
   </script>
 
