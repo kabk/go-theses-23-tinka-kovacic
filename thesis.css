@@ -314,6 +314,6 @@ div {
   }
 
   body::before {
-    height: 25vh;
+    height: 21vh;
   }
 }
