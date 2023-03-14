@@ -328,7 +328,7 @@ div {
   .sticky-menu a {
     font-size: 3.5vw;
     font-weight: normal;
-    padding-top: -13vh;
+    padding-top: 0px;
 
   }
 
