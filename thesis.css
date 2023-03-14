@@ -171,6 +171,7 @@ div {
   font-family: 'Basteleur', sans-serif;
   font-weight: normal;
   z-index: 2;
+  padding-top: 10px;
 }
 
 .sticky-menu ul {
@@ -296,6 +297,7 @@ div {
   .sticky-menu a {
     font-size: 2.5vw;
     font-weight: normal;
+    padding: 0px;
   }
 
   body::before {
