@@ -5,7 +5,6 @@
     url('/Users/tk/Desktop/go-theses-23-tinka-kovacic/Fonts/Basteleur-Bold.ttf') format('truetype'),
     url('/Users/tk/Desktop/go-theses-23-tinka-kovacic/Fonts/Basteleur-Bold.woff') format('woff'),
     url('/Users/tk/Desktop/go-theses-23-tinka-kovacic/Fonts/Basteleur-Moonlight.woff') format('woff');
-
 }
 
 html {
@@ -116,6 +115,7 @@ h1 {
   align-items: center;
   position: relative;
   z-index: 2;
+  font-weight: bold;
 
 }
 
@@ -277,11 +277,13 @@ div {
 
   h1 {
     font-size: 4.8vw !important;
+    font-weight: bold;
   }
 
   h2 {
     font-size: 3vw !important;
     font-weight: 500 !important;
+    font-weight: normal;
   }
 
   body {
@@ -294,6 +296,7 @@ div {
   }
 
   .sticky-menu a {
-    font-size: 20px;
+    font-size: 10px;
+    font-weight: normal;
   }
 }
