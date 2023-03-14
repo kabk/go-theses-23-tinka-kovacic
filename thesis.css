@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Basteleur';
-  src: url('Basteleur-Bold.eot');
-  src: url('Basteleur-Bold.eot?#iefix') format('embedded-opentype'),
-      url('Basteleur-Bold.woff2') format('woff2'),
-      url('Basteleur-Bold.woff') format('woff'),
-      url('Basteleur-Bold.ttf') format('truetype');
+  src: url('Fonts/Basteleur-Bold.eot');
+  src: url('Fonts/Basteleur-Bold.eot?#iefix') format('embedded-opentype'),
+      url('Fonts/Basteleur-Bold.woff2') format('woff2'),
+      url('Fonts/Basteleur-Bold.woff') format('woff'),
+      url('Fonts/Basteleur-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -12,11 +12,11 @@
 
 @font-face {
   font-family: 'Basteleur Moonlight';
-  src: url('Basteleur-Moonlight.eot');
-  src: url('Basteleur-Moonlight.eot?#iefix') format('embedded-opentype'),
-      url('Basteleur-Moonlight.woff2') format('woff2'),
-      url('Basteleur-Moonlight.woff') format('woff'),
-      url('Basteleur-Moonlight.ttf') format('truetype');
+  src: url('Fonts/Basteleur-Moonlight.eot');
+  src: url('Fonts/Basteleur-Moonlight.eot?#iefix') format('embedded-opentype'),
+      url('Fonts/Basteleur-Moonlight.woff2') format('woff2'),
+      url('Fonts/Basteleur-Moonlight.woff') format('woff'),
+      url('Fonts/Basteleur-Moonlight.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
