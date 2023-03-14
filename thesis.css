@@ -86,7 +86,6 @@ body::before {
 }
 
 body {
-  font-size: 13pt;
 }
 
 p,
@@ -300,7 +299,7 @@ div {
   }
 
   body {
-    font-size: 3vw !important;
+    font-size: 3.2vw !important;
   }
 
   .section-inner {
