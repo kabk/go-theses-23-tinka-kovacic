@@ -168,7 +168,6 @@ div {
 .sticky-menu {
   position: sticky;
   top: 0;
-  padding-top: 15px;
   font-family: 'Basteleur', sans-serif;
   font-weight: normal;
   z-index: 2;
@@ -287,7 +286,6 @@ div {
 
   body {
     font-size: 3vw !important;
-
   }
 
   .section-inner {
@@ -301,6 +299,6 @@ div {
   }
 
   body::before {
-    height: 23vh;
+    height: 25vh;
   }
 }
