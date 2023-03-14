@@ -301,7 +301,7 @@ div {
 
   body {
     font-size: 3.2vw !important;
-    padding-top: 3px;
+    padding-top: 0px;
   }
 
   .section-inner {
@@ -312,7 +312,7 @@ div {
   .sticky-menu a {
     font-size: 3.5vw;
     font-weight: normal;
-    padding-top: -10vh;
+    padding-top: -13vh;
 
   }
 
