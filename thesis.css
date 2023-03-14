@@ -1,19 +1,13 @@
-/*@font-face {
-  font-family: 'Basteleur';
-  src: url('/Users/tk/Desktop/go-theses-23-tinka-kovacic/Fonts/Basteleur-Moonlight.ttf') format('truetype'),
-       url('/Users/tk/Desktop/go-theses-23-tinka-kovacic/Fonts/Basteleur-Bold.ttf') format('truetype'),
-       url('/Users/tk/Desktop/go-theses-23-tinka-kovacic/Fonts/Basteleur-Bold.woff') format('woff'),
-       url('/Users/tk/Desktop/go-theses-23-tinka-kovacic/Fonts/Basteleur-Moonlight.woff') format('woff'),
-       url('/Users/tk/Desktop/go-theses-23-tinka-kovacic/Fonts/Basteleur-Bold.otf') format('opentype'),
-       url('/Users/tk/Desktop/go-theses-23-tinka-kovacic/Fonts/Basteleur-Moonlight.otf') format('opentype'),
-       url('/Users/tk/Desktop/go-theses-23-tinka-kovacic/Fonts/Basteleur-Bold.woff2') format('woff2'),
-       url('/Users/tk/Desktop/go-theses-23-tinka-kovacic/Fonts/Basteleur-Moonlight.woff2') format('woff2');
-}*/
-
 @font-face {
   font-family: 'Basteleur';
-  src: url('/Fonts/Basteleur-Bold.otf') format('opentype'),
-       url('/Fonts/Basteleur-Moonlight.otf') format('opentype');
+  src: url('Fonts/Basteleur-Moonlight.ttf') format('truetype'),
+       url('Fonts/Basteleur-Bold.ttf') format('truetype'),
+       url('Fonts/Basteleur-Bold.woff') format('woff'),
+       url('Fonts/Basteleur-Moonlight.woff') format('woff'),
+       url('Fonts/Basteleur-Bold.otf') format('opentype'),
+       url('Fonts/Basteleur-Moonlight.otf') format('opentype'),
+       url('Fonts/Basteleur-Bold.woff2') format('woff2'),
+       url('Fonts/Basteleur-Moonlight.woff2') format('woff2');
 }
 
 
