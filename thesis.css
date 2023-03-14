@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Basteleur';
-  src: local('Basteleur'),
-    url('/Users/tk/Desktop/go-theses-23-tinka-kovacic/Fonts/Basteleur-Moonlight.ttf') format('truetype'),
-    url('/Users/tk/Desktop/go-theses-23-tinka-kovacic/Fonts/Basteleur-Bold.ttf') format('truetype'),
-    url('/Users/tk/Desktop/go-theses-23-tinka-kovacic/Fonts/Basteleur-Bold.woff') format('woff'),
-    url('/Users/tk/Desktop/go-theses-23-tinka-kovacic/Fonts/Basteleur-Moonlight.woff') format('woff');
+  src: url('/fonts/Basteleur-Moonlight.ttf') format('truetype'),
+       url('/fonts/Basteleur-Bold.ttf') format('truetype'),
+       url('/fonts/Basteleur-Bold.woff') format('woff'),
+       url('/fonts/Basteleur-Moonlight.woff') format('woff');
 }
+
 
 html {
   line-height: 1.5;
@@ -106,7 +106,8 @@ img {
 }
 
 h1 {
-  font-family: 'Basteleur';
+  font-family: 'Basteleur', sans-serif;
+  font-weight: bold;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 0px;
@@ -279,7 +280,6 @@ div {
   h1 {
     padding-top: 3vh;
     font-size: 4.8vw !important;
-    font-weight: bold;
   }
 
   h2 {
