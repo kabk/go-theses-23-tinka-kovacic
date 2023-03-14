@@ -23,6 +23,11 @@
   <title>The Rite of Immortality</title>
 
   <script>
+    
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+
 
     function toggleNote(event) {
       const footnoteElement = event.currentTarget;

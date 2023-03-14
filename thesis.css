@@ -219,6 +219,7 @@ div {
 
 .Bibliography {
   justify-content: center;
+  font-family: 'Libre Franklin', sans-serif;
   font-size: 0.85em;
   max-width: 50%;
   position: relative;
@@ -276,6 +277,7 @@ div {
 @media (max-width: 900px) {
 
   h1 {
+    padding-top: 3vh;
     font-size: 4.8vw !important;
     font-weight: bold;
   }
@@ -284,10 +286,12 @@ div {
     font-size: 3vw !important;
     font-weight: 500 !important;
     font-weight: normal;
+    padding-top: 2vh;
   }
 
   body {
     font-size: 3vw !important;
+
   }
 
   .section-inner {
@@ -296,7 +300,7 @@ div {
   }
 
   .sticky-menu a {
-    font-size: 10px;
+    font-size: 3vw;
     font-weight: normal;
   }
 }
