@@ -283,10 +283,9 @@ div {
   }
 
   h2 {
-    font-size: 3vw !important;
+    font-size: 2.5vw !important;
     font-weight: 500 !important;
     font-weight: normal;
-    padding-top: 2vh;
   }
 
   body {
@@ -300,7 +299,11 @@ div {
   }
 
   .sticky-menu a {
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-weight: normal;
+  }
+
+  body::before {
+    height: 23vh;
   }
 }
