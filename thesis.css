@@ -53,10 +53,10 @@ body {
 body::before {
   content: "";
   position: fixed;
-  top: -40px;
-  left: -30px;
+  top: -30px;
+  left: -25px;
   width: 130%;
-  height: 25vh;
+  height: 30vh;
   background-image: inherit;
   background-size: cover;
   filter: blur(20px);
