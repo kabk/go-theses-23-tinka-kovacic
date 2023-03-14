@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Basteleur';
-  src: url('/fonts/Basteleur-Moonlight.ttf') format('truetype'),
-       url('/fonts/Basteleur-Bold.ttf') format('truetype'),
-       url('/fonts/Basteleur-Bold.woff') format('woff'),
-       url('/fonts/Basteleur-Moonlight.woff') format('woff');
+  src: url('/Fonts/Basteleur-Moonlight.ttf') format('truetype'),
+       url('/Fonts/Basteleur-Bold.ttf') format('truetype'),
+       url('/Fonts/Basteleur-Bold.woff') format('woff'),
+       url('/Fonts/Basteleur-Moonlight.woff') format('woff');
 }
 
 
@@ -18,10 +18,10 @@ html {
 body {
   margin: 0 auto;
   max-width: 100vw;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-  padding-top: 1em;
-  padding-bottom: 1.5em;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   hyphens: auto;
   overflow-wrap: break-word;
   height: 100%;
@@ -108,16 +108,12 @@ img {
 h1 {
   font-family: 'Basteleur', sans-serif;
   font-weight: bold;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
+  margin: 0px;
   font-size: 2.8vw;
   text-align: center;
   align-items: center;
   position: relative;
   z-index: 2;
-  font-weight: bold;
-
 }
 
 h2 {
@@ -280,7 +276,6 @@ div {
 @media (max-width: 900px) {
 
   h1 {
-    padding-top: 3vh;
     font-size: 4.8vw !important;
   }
 
