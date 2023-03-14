@@ -173,7 +173,8 @@ div {
   position: sticky;
   top: 0;
   padding-top: 15px;
-  font-family: 'Basteleur';
+  font-family: 'Basteleur', sans-serif;
+  font-weight: normal;
   z-index: 2;
 }
 
