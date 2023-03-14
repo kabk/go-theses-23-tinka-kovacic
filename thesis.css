@@ -332,6 +332,7 @@ div {
 
   .Bibliography {
     font-size: 0.7em;
+    max-width: 80%;
   }
 }
 
