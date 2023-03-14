@@ -122,7 +122,8 @@ h1 {
 
 h2 {
   font-size: 2.3vw;
-  font-family: 'Basteleur';
+  font-family: 'Basteleur', sans-serif;
+  font-weight: normal;
   position: sticky;
   top: 48px;
   /* this is the height of the nav element plus its padding */
