@@ -43,7 +43,6 @@ body {
   overflow-wrap: break-word;
   height: 100%;
   overflow: auto;
-  text-rendering: optimizeLegibility;
   font-kerning: normal;
   background: linear-gradient(-45deg, #ffae96, #f3c1d4, #d9d9d9, #aadbed, #fffcaf);
   background-size: 400% 400%;
@@ -126,9 +125,7 @@ h2 {
   font-family: 'Basteleur Moonlight';
   position: sticky;
   top: 48px;
-  /* this is the height of the nav element plus its padding */
   margin-top: -48px;
-  /* this is the negative value of the top property */
   margin-bottom: 0px;
   font-weight: 500;
   z-index: 2;
@@ -143,6 +140,10 @@ h3 {
   margin-bottom: 0px;
   top: 0;
   font-weight: 300;
+}
+
+ul {
+
 }
 
 li>ol,
@@ -270,21 +271,36 @@ div {
   padding-right: 16vw;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
+
+  .section-inner {
+    display: block !important;
+    max-width: 100vw;
+  }
 
   h1 {
-    font-size: 4.8vw !important;
+    font-size: 5vw !important;
   }
+
+  .sticky-menu a {
+    font-size: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 600px) {
 
   h2 {
     font-size: 3vw !important;
     font-weight: 500 !important;
     font-weight: normal;
-    padding-top: 10%;
+    z-index: 99;
+    padding-top: 2%;
   }
 
   body {
-    padding-top: 0px;
+    padding-top: 5px;
   }
 
   .poem {
@@ -298,15 +314,6 @@ div {
   .regular_text {
     font-size: 0.7em;
   }
-  
-  .Bibliography {
-    justify-content: center;
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 0.85em;
-    max-width: 50%;
-    position: relative;
-    margin: auto;
-  }
 
   .section-inner {
     display: block !important;
@@ -314,13 +321,13 @@ div {
   }
 
   .sticky-menu a {
-    font-size: 3.5vw;
-    font-weight: normal;
-    padding-top: -30px;
-
+    font-size: 3vw;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   body::before {
-    height: 27vh;
+    height: 25vh;
   }
 }
+
