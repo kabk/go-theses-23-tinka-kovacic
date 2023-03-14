@@ -291,12 +291,15 @@ div {
 
 @media (max-width: 600px) {
 
+  h1 {
+    font-size: 4.5vw !important;
+  }
+
   h2 {
     font-size: 3vw !important;
     font-weight: 500 !important;
     font-weight: normal;
     z-index: 99;
-    padding-top: 2%;
   }
 
   body {
@@ -321,13 +324,13 @@ div {
   }
 
   .sticky-menu a {
-    font-size: 3vw;
+    font-size: 3.2vw;
     display: flex;
     flex-wrap: wrap;
   }
 
   body::before {
-    height: 25vh;
+    height: 21vh;
   }
 }
 
