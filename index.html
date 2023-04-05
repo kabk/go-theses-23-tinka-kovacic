@@ -40,6 +40,9 @@
       button.classList.toggle('outline');
     }
 
+    function scrollto(thing) {
+      document.querySelector(thing).scrollIntoView({behavior: 'smooth'})
+    }
   </script>
 
 </head>
@@ -59,12 +62,12 @@
 
   <nav class="sticky-menu">
     <ul>
-      <li><a href="#Longing">Longing</a></li>
-      <li><a href="#Crossing">Crossing</a></li>
-      <li><a href="#Preserving">Preserving</a></li>
-      <li><a href="#Recalling">Recalling</a></li>
-      <li><a href="#Conclusion">Conclusion</a></li>
-      <li><a href="#Bibliography">Bibliography</a></li>
+      <li><a onclick="scrollto('#Longing')">Longing</a></li>
+      <li><a onclick="scrollto('#Crossing')">Crossing</a></li>
+      <li><a onclick="scrollto('#Preserving')">Preserving</a></li>
+      <li><a onclick="scrollto('#Recalling')">Recalling</a></li>
+      <li><a onclick="scrollto('#Conclusion')">Conclusion</a></li>
+      <li><a onclick="scrollto('#Bibliography')">Bibliography</a></li>
     </ul>
   </nav>
 

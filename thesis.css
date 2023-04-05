@@ -125,7 +125,6 @@ h2 {
   font-family: 'Basteleur Moonlight';
   position: sticky;
   top: 48px;
-  margin-top: -48px;
   margin-bottom: 0px;
   font-weight: 500;
   z-index: 2;
@@ -179,6 +178,7 @@ div {
 
 .sticky-menu li {
   margin-right: 20px;
+  z-index: 100;
 }
 
 .sticky-menu li:last-child {
@@ -226,6 +226,7 @@ div {
 .footnote>sup {
   display: inline;
   color: #fffcaf;
+  line-height: 0;
 }
 
 .footnote.reveal>sup {
@@ -244,6 +245,7 @@ div {
   width: 35px;
   height: 35px;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .circle-button.outline {
@@ -282,6 +284,7 @@ div {
     font-size: 2vw;
     display: flex;
     flex-wrap: wrap;
+    cursor: pointer;
   }
 }
 
@@ -295,8 +298,8 @@ div {
     font-size: 3vw !important;
     font-weight: 500 !important;
     font-weight: normal;
-    z-index: 99;
-    padding-top: 2.5%;
+    z-index: 2;
+    top: 63px;
   }
 
   body {
@@ -327,7 +330,7 @@ div {
   }
 
   body::before {
-    height: 21vh;
+    height: 22vh;
   }
 
   .Bibliography {
